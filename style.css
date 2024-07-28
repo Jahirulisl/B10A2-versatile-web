@@ -4,4 +4,512 @@
 
 body{font-family: "Inter", sans-serif;}
 
-/* header section style start  */
+
+/* shear section  */
+.display{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.font{
+    color:white;
+}
+body{
+  max-width:100%;
+  max-height:100%;
+  margin: 0 auto;
+  background-color: black;
+}
+/* header section navbar style start  */
+.navbar h3{
+    color: tomato;
+    font-size: 30px;
+    font: weight 900px;
+    margin-left: 10%;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-manue{
+  list-style: none;
+}
+.nav-manue li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+  
+}
+#home{
+    width: 75px;
+    height: 20px;
+    color: white;
+    background: tomato;
+    border-radius: 5px;
+}
+
+/* header section navbar style end */
+
+/* banner section left site start  */
+ .button-banner{
+    width: 50%;
+    gap: 20px;
+ }
+.ban-h1{
+    font-size: 55px;
+    font-weight: 1000;
+ }
+
+.btn1 {
+    width:150px;
+    height: 40px;
+    background-color: tomato;
+    font-size: 24px;
+    border-radius: 30px;
+    border: none;
+    margin-left:40%;
+}
+.btn2{
+    width:150px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 30px;
+    border:2px solid white;
+    background: black;
+    margin-left:40%;
+}
+.btn2>a{
+    color: white;
+
+ }
+ .btn1>a{
+    color:white;
+ }
+
+ button a{
+    text-decoration: none;
+ }
+ .banner-btn{
+    /* justify-content: space-between; */
+ }
+ .button-banner {
+  margin-top: 15%;
+  margin-left: 0 auto;
+ } 
+/* banner section left end  */
+
+/* banner section right site start  */
+
+.banner-right{
+    width: 100%;
+    background-image:url('images/Images 2.png') ;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+
+}
+.card-number1{
+    width: 200px; 
+    height: 120px; 
+    margin-top: 75%; 
+    margin-left: 0 auto;
+    text-align: center;
+    background-color: rgba(11, 1, 1, 0.751);
+    border-radius: 20px;
+    font-size:24px ;
+}
+.ser-img{
+   border-radius: 100px;
+   text-align: end;
+}
+.card-number1 p{
+   font-size:12px ;
+   color: wheat;
+}
+.card-number2 p{
+   font-size:12px ;
+   color: wheat;
+}
+.card-number2{
+    width: 200px; 
+    height: 120px; 
+    margin-top: 20%;
+    margin-right: 120px;
+    text-align: center; 
+    background-color: rgba(20, 30, 44, 0.751);
+    border-radius: 20px;
+    font-size:24px ;
+   }
+/* banner section right site end  */
+
+/* habites section precties start */
+/* .containers{
+    width:1050px;
+    height: 500px;
+    border: 2px solid greenyellow;
+    margin-top: 20px;
+} */
+.habits-contant{
+    text-align: center;
+    color: white;
+}
+.habits-contant h3{
+    font-size:35px;
+    font-weight:800;
+}
+.habit-img{
+    border-radius: 100px;
+}
+.img-box{
+    width: 250px;
+    height: 300px;
+    
+    text-align: center;
+   margin-left: 20px;
+}
+.Habits-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+/* habites section precties end */
+
+
+/* run section  */
+.run-container{
+    width:1000px ;
+    height: 300px;
+    background-color:rgb(37, 33, 33);
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+
+} 
+.run-content{
+    width: 40%;
+    
+    margin-top: 30px;
+    margin-left:30px;
+
+}
+.run-btn{
+    width: 150px;
+    height: 30px;
+    background-color:tomato ;
+    margin-top:90px;
+    border-radius: 20px;
+    border: none;
+}
+.run-btn a{
+    color: white;
+}
+
+.img-content{
+    margin-top:50px;
+    width: 300px;
+    height: 200px;
+    margin-left:15%;
+}
+.img-sub{
+    border-radius: 20px;
+}
+ /* run section end  */
+
+ /* tarning section start  */
+ .tarning-container{
+    width:900px ;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius:20px;
+    gap:10px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .excer-content{
+
+ }
+ .tarning-container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+ }
+ .tar-img1{
+    width:300px;
+    height:140px;
+    background-image: url('images/exercise1.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+ }
+ .tar-img2{
+    width:300px;
+    height:140px;
+    background-image: url('images/exercise2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+ }
+ .tar-img3{
+    width:300px;
+    height:140px;
+    background-image: url('images/exercise3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+ }
+ .tar-img4{
+    width:300px;
+    height:140px;
+    background-image: url('images/exercise4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+ }
+ .tar-img5{
+    width:300px;
+    height:140px;
+    background-image: url('images/exercise5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+ }
+ .tar-img6{
+    width:300px;
+    height:140px;
+    background-image: url('images/exercise6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+ }
+ .inpout-form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+ }
+ .excer-content
+ {
+    text-align:center;
+    margin-top: 100px;
+ }
+
+ /* tarning section end */
+
+ /* calculoter section start  */
+ .calculoter-container{
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  background-color: rgb(56, 51, 51);
+  padding: 50px 30px;
+ }
+ .team-containers {
+   display: flex;
+   gap: 10px;
+ }
+ .inpout-form{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+  
+ }
+ #activ-bar{
+   width: 500px;
+ }
+ .cal-btn{
+   width: 100px;
+   padding: 5px;
+   background: tomato;
+   margin-top: 20px;
+   border-radius: 20px;
+   border: none;
+ }
+ .cal-btn a{
+   color: white;
+ }
+ .cal-section{
+   text-align: center;
+   margin-top: 100px;
+ }
+ .tabil-list{
+   border-collapse:collapse;
+   margin-left:50px;
+
+}
+th{
+   border: 1px solid white;
+}
+ /* calculoter section end  */ 
+
+ 
+
+ /* your team section start  */
+  .team-content{
+   text-align: center;
+  }
+ .team-container{
+    margin-top: 20px;
+ }
+/* your team section end  */
+
+
+/* tainor section start  */
+ .team-containers{
+   width:100%;
+   height: 100%;
+   margin-top: 20px;
+   margin-left:20px;
+   border-radius:20px;
+}
+.team-containers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+ .tnr-img1{
+      width:330px;
+      height:170px;
+      background-image:url('images/trainer1.png') ;
+      background-size:cover ;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+   }
+   .tnr-img2{
+      width:330px;
+      height:170px;
+      background-image:url('images/trainer2.png') ;
+      background-size:cover ;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+   }
+   .tnr-img3{
+      width:330px;
+      height:170px;
+      background-image:url('images/trainer3.png');
+      background-size:cover ;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+
+   }
+   .tnr-img4{
+      width:330px;
+      height:170px;
+      background-image:url('images/trainer4.png');
+      background-size:cover ;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      
+   }
+   .tnr-img5{
+      width:330px;
+      height:170px;
+      background-image:url('images/trainer5.png');
+      background-size:cover ;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+
+   }
+   .tnr-img6{
+      width:330px;
+      height: 170px; 
+      background-image:url('images/trainer6.png');
+      background-size:cover ;
+      background-repeat: no-repeat;
+      border-radius:10px; 
+   }
+   .tem-span{
+      font-size: 12px;
+   }
+/* tainor section end  */
+
+
+/* footer section start   */
+ .footer-container{
+    /* background-color:rgb(37, 33, 33) ; */
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.footer-area{
+   background-color:rgb(37, 33, 33) ;
+   padding: 0.01px; 
+}
+.footer-container h3{
+   color: rgb(222, 215, 215);
+   font-size: 18px;
+   align-items: center;
+}
+.footer-container{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-content h1{
+   color: tomato;
+    font-size: 30px;
+    font: weight 900px;
+   
+}
+.footer-content p{
+   color: rgb(222, 215, 215);
+   font-size: 12px;
+}
+
+.footer-nav1 ul li a{
+    color: rgb(222, 215, 215);
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-nav2 ul li a{
+    color: rgb(222, 215, 215);
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.footer-nav1 ul{
+    list-style: none;
+}
+
+.footer-nav2 ul{
+    list-style:none;
+} 
+.footer-h3{
+   text-align: center;
+}
+/* footer section end */
+
+
+/* responsive section start */
+
+@media screen and (max-width:576px){
+   .header-contaner,
+   /* .navbar,  */
+   .banner-container,
+   .habits-img,
+   /* .Habits-container, */
+   .run-container,
+   .run-content,
+   /* .tarning-container, */
+   .calculoter-container,
+   .team-containers {
+     flex-direction: column;
+   }
+   .Habits-container{
+      grid-template-columns: repeat(1,1fr);
+   }
+
+   .tarning-container{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .calculoter-container{
+      grid-template-columns:repeat(1,1fr);
+      gap: 10px;
+   }
+   .cal-section{
+      margin-top:100px;
+   }
+   .team-containers{
+      grid-template-columns: repeat(1,1fr);
+      gap: 10px;
+   }
+}
